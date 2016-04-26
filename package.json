@@ -1,0 +1,30 @@
+{
+  "name": "changepathjs",
+  "version": "1.0.0",
+  "description": "function for changing values in js objects",
+  "main": "index.es6.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --compilers=js:babel/register tests.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwijibo/changepath.js.git"
+  },
+  "keywords": [
+    "paths",
+    "objects",
+    "arrays"
+  ],
+  "author": "Keith Alexander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kwijibo/changepath.js/issues"
+  },
+  "homepage": "https://github.com/kwijibo/changepath.js#readme",
+  "devDependencies": {
+    "babel": "^5.8.38",
+    "browserify": "^13.0.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^2.4.5"
+  }
+}
