@@ -17,4 +17,5 @@ const y = changePath(['a','b',0], 66, x)
 
 // {a: { b: [66]}}
 
+```
 
