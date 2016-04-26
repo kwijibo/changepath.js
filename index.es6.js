@@ -4,9 +4,6 @@ const clone = (source) =>
     Array.from(source) : 
     Object.assign(Object.create(Object.getPrototypeOf(source)), source)
 
-/*
- * We need to bulk change properties on a cloned object's proto
- */ 	
 
 //:: [path] -> val -> Source -> Target
 export const changePath = (path, val, dict) => {
