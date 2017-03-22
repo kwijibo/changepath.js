@@ -26,5 +26,5 @@ var changePath = function changePath(path, val, dict) {
   }, result);
   return result;
 };
-exports.changePath = changePath;
+exports = changePath;
 
