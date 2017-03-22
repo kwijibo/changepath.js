@@ -6,7 +6,7 @@ const clone = (source) =>
 
 
 //:: [path] -> val -> Source -> Target
-export const changePath = (path, val, dict) => {
+const changePath = (path, val, dict) => {
   const result = clone(dict) 
   const end = path.reduce((accum, k, i)=>{
     if(path.length-1 === i){
@@ -19,3 +19,4 @@ export const changePath = (path, val, dict) => {
   }, result)
   return result
 }
+export default changePath
